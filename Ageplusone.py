@@ -1,0 +1,15 @@
+#this is a question asking thing
+listofnames = []
+nameone = input('what\'s your name?: ')
+ageone = int(input('how old are you today?: '))
+nametwo = input('what\'s your name?: ')
+agetwo = int(input('how old are you today?: '))
+namethree = input('what\'s your name?: ')
+agethree = int(input('how old are you today?: '))
+listofnames.append(nameone)
+listofnames.append(ageone)
+listofnames.append(nametwo)
+listofnames.append(agetwo)
+listofnames.append(namethree)
+listofnames.append(agethree)
+print('My three new friends and their ages are:{}' .format(listofnames))
